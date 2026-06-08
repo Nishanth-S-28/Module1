@@ -1,9 +1,9 @@
-# Conditional Statements in Python: Even or Odd Checker
+# Conditional Statements in Python - Even or Odd Checker
 
-## Aim
+## 🎯 Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
-## Algorithm
+## 🧠 Algorithm
 1. Get an input from the user.
 2. Convert the input to an integer and store it in a variable `a`.
 3. Use the modulo operator `%` to check if `a % 2 == 0`.
@@ -12,15 +12,18 @@ To write a Python program to check whether the given number is **even** or **odd
 4. End the program.
 
 ## 🧾 Program
+
 ```
-a=int (input ()) if 
-(a%2) ==0:
-print("EVEN")
+a=int(input())
+if(a%2==0):
+    print("EVEN")
 else:
-print("ODD"
+    print("ODD")
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/8c85c558-4e97-458a-a875-d2604fa9854c)
+
+<img width="535" height="405" alt="image" src="https://github.com/user-attachments/assets/2fd14e3e-109b-4e3c-9415-dda48fb99aaf" />
+
 
 ## Result
-Thus the program has been successfully executed
+Thus,the Python program to check whether the given number is even or odd using if...else statements is created successfully.
